@@ -11,10 +11,9 @@ function Menu() {
             <img className="Logo" src={Logo} alt="Danceflix logo"/>
             </Link>
 
-        <Button as={Link} className="ButtonLink" to="/cadastro/video">
-            New Video
-        </Button>
-
+            <Button as={Link} className="ButtonLink" to="/cadastro/video">
+                New Video
+            </Button>
         </nav>
     );
 }
