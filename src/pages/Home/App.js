@@ -13,7 +13,7 @@ function Home() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"What is dance? Give all of you, soround your soul, feel the beet and show it"}
+        videoDescription={"What is dance? Give all of you, surround your soul, feel the beet and show it"}
       />
 
       <Carousel
