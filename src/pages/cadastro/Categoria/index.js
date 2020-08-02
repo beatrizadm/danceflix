@@ -28,15 +28,16 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    console.log('alo alo gracas a deus');
-    const URL = 'http://localhost:8080/categorias';
+    const URL = window.location.hostname.includes('localhost')
+      ? 'https://localhost:8080/categorias'
+      : 'https://danceflix-back.herokuapp.com/categorias';
     fetch('URL')
       .then(async (respostaDoServidor) => {
         const resposta = await respostaDoServidor.json();
         setCategorias([
           ...resposta,
         ]);
-      }); 
+      });
 
     /* setTimeout(() => {
       setCategorias([
