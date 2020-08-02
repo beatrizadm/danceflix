@@ -1,7 +1,7 @@
 {
   "categorias": [
     {
-      "titulo": "Live Performances",
+      "titulo": "Line Dance",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
       "videos": [
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "titulo": "Studio Dance",
+      "titulo": "Tap Dance",
       "cor": "#00C86F",
       "videos": [
         {
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "titulo": "Reggaeton",
+      "titulo": "Hip-hop",
       "cor": "#9cd33b",
       "videos": [
         {
@@ -88,7 +88,7 @@
       ]
     },
     {
-      "titulo": "Contemporary",
+      "titulo": "Salsa",
       "cor": "orange",
       "videos": [
         {
@@ -110,7 +110,7 @@
       ]
     },
     {
-      "titulo": "Music Videos",
+      "titulo": "Yangko Dance",
       "cor": "red",
       "videos": [
         {
@@ -136,7 +136,7 @@
       ]
     },
     {
-      "titulo": "Theater",
+      "titulo": "Gangnam Style",
       "cor": "#6b5be2",
       "videos": [
         {
@@ -158,6 +158,102 @@
         {
           "titulo": "Como aprender a programar?",
           "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+        }
+      ]
+    },
+    {
+      "titulo": "Kathak",
+      "cor": "#00C86F",
+      "videos": [
+        {
+          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
+          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+        },
+        {
+          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
+          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+        },
+        {
+          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
+          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+        },
+        {
+          "titulo": "API: Dicionário do Programador",
+          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+        }, 
+        {
+          "titulo": "Usando Git Direito",
+          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+        }
+      ]
+    },
+    {
+      "titulo": "Break dance or B-boying",
+      "cor": "#9cd33b",
+      "videos": [
+        {
+          "titulo": "Teste de Turing",
+          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+        },
+        {
+          "titulo": "O que é Data Science?",
+          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+        },
+        {
+          "titulo": "Melhor forma de aprender Python",
+          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+        },
+        {
+          "titulo": "Como ingressar no mercado de Data Science?",
+          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+        }
+      ]
+    },
+    {
+      "titulo": "Ballet",
+      "cor": "orange",
+      "videos": [
+        {
+          "titulo": "Interestellar",
+          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+        },
+        {
+          "titulo": "Gattaca",
+          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+        },
+        {
+          "titulo": "A Chegada",
+          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+        },
+        {
+          "titulo": "Feitiço do Tempo",
+          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+        }
+      ]
+    },
+    {
+      "titulo": "Belly dance",
+      "cor": "red",
+      "videos": [
+        {
+          "titulo": "Final Fantasy 7",
+          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+        },
+        {
+          "titulo": "Assassins Creed Valhalla",
+          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+        },
+        {
+          "titulo": "God of War 4",
+          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+        },
+        {
+          "titulo": "Resident Evil 8",
+          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+        },
+        {
+          "titulo": "Pokémon Let's Go Pikachu/Eevee",
+          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
         }
       ]
     }
