@@ -1,0 +1,68 @@
+{
+    "categorias": [
+        {
+            "id": 1,
+            "descricao": "danca",
+            "nome": "Line Dance",
+            "cor": "#6BD1FF"
+          },
+          {
+            "id": 2,
+            "descricao": "danca",
+            "nome": "Tap Dance",
+            "cor": "#00C86F"
+            
+          },
+          {
+            "id": 3,
+            "descricao": "danca",
+            "nome": "Hip-hop",
+            "cor": "#9cd33b"
+          },
+          {
+            "id": 4,
+            "descricao": "danca",
+            "nome": "Salsa",
+            "cor": "orange"
+          },
+          {
+            "id": 5,
+            "descricao": "danca",
+            "nome": "Yangko Dance",
+            "cor": "red"
+          },
+          {
+            "id": 6,
+            "descricao": "danca",
+            "nome": "Gangnam Style",
+            "cor": "#6b5be2"
+          },
+          {
+            "id": 7,
+            "descricao": "danca",
+            "nome": "Kathak",
+            "cor": "#00C86F"
+
+          },
+          {
+            "id": 8,
+            "descricao": "danca",
+            "nome": "Break dance or B-boying",
+            "cor": "#9cd33b"
+            
+          },
+          {
+            "id": 9,
+            "descricao": "danca",
+            "nome": "Ballet",
+            "cor": "orange"
+          },
+          {
+            "id": 10,
+            "descricao": "danca",
+            "nome": "Belly dance",
+            "cor": "red" 
+          }
+        
+    ]
+}

@@ -4,6 +4,10 @@
       "titulo": "Line Dance",
       "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#6BD1FF",
+      "link_extra":{
+        "text":"More line dance videos",
+        "link_area":""
+      },
       "videos": [
         {
           "titulo": "Diva (Homecoming Live Show)",
@@ -42,6 +46,10 @@
     {
       "titulo": "Tap Dance",
       "cor": "#00C86F",
+      "link_extra":{
+        "text":"More tap dance videos",
+        "link_area":""
+      },
       "videos": [
         {
           "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
@@ -68,6 +76,10 @@
     {
       "titulo": "Hip-hop",
       "cor": "#9cd33b",
+      "link_extra":{
+        "text":"More hip-hop dance videos",
+        "link_area":""
+      },
       "videos": [
         {
           "titulo": "Teste de Turing",
@@ -90,6 +102,10 @@
     {
       "titulo": "Salsa",
       "cor": "orange",
+      "link_extra":{
+        "text":"More salsa dance videos",
+        "link_area":""
+      },
       "videos": [
         {
           "titulo": "Interestellar",
@@ -112,6 +128,10 @@
     {
       "titulo": "Yangko Dance",
       "cor": "red",
+      "link_extra":{
+        "text":"More yangko dance videos",
+        "link_area":""
+      },
       "videos": [
         {
           "titulo": "Final Fantasy 7",
@@ -138,6 +158,10 @@
     {
       "titulo": "Gangnam Style",
       "cor": "#6b5be2",
+      "link_extra":{
+        "text":"More gangnam style dance videos",
+        "link_area":""
+      },
       "videos": [
         {
           "titulo": "Como estudar melhor?",
@@ -164,6 +188,10 @@
     {
       "titulo": "Kathak",
       "cor": "#00C86F",
+      "link_extra":{
+        "text":"More kathak dance videos",
+        "link_area":""
+      },
       "videos": [
         {
           "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
@@ -190,6 +218,10 @@
     {
       "titulo": "Break dance or B-boying",
       "cor": "#9cd33b",
+      "link_extra":{
+        "text":"More break dance videos",
+        "link_area":""
+      },
       "videos": [
         {
           "titulo": "Teste de Turing",
@@ -212,6 +244,10 @@
     {
       "titulo": "Ballet",
       "cor": "orange",
+      "link_extra":{
+        "text":"More ballet dance videos",
+        "link_area":""
+      },
       "videos": [
         {
           "titulo": "Interestellar",
@@ -234,6 +270,10 @@
     {
       "titulo": "Belly dance",
       "cor": "red",
+      "link_extra":{
+        "text":"More belly dance videos",
+        "link_area":""
+      },
       "videos": [
         {
           "titulo": "Final Fantasy 7",
