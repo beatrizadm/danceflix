@@ -1,4 +1,4 @@
-<img src="src/assets/img/Logo.png" height="100"/>
+<img src="src/assets/img/Logo.png" height="100" align="center"/>
 React application similar to netflix, done during Alura's react immersion
 
 'Dance it does not only make us move our body but also moves our souls' 
