@@ -1,4 +1,11 @@
-<img src="src/assets/img/Logo.png" height="100" text-align="center"/>
+#Danceflix
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/beatrizadm/Danceflix/blob/master/LICENSE)
+
+
+<p align="center">
+    <img src="src/assets/img/Logo.png" height="100"/>
+<p/>
+
 React application similar to netflix, done during Alura's react immersion
 
 'Dance it does not only make us move our body but also moves our souls' 
