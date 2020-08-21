@@ -3,12 +3,13 @@ import styled from 'styled-components';
 export const Title = styled.h3`
   font-style: normal;
   font-weight: normal;
-  font-size: 35px;
+  font-size: 28px;
   line-height: 1;
   margin-bottom: 16px;
   display: inline-block;
-  padding: 20px;
+  padding: 15px;
   background: red;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0), #111);
   line-height: 1;
   border-radius: 4px;
 
@@ -36,14 +37,29 @@ export const ExtraLink = styled.a`
 export const VideoCardList = styled.ul`
   margin: 0;
   padding-left: 0;
-  padding-bottom: 32px;
   list-style: none;
   display: flex;
   overflow-x: auto;
   flex-direction: row;
   
   li {
-    margin-right: 16px;
+    margin-right: 5%;
+  }
+`;
+
+export const CategoryDescription = styled.h5`
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 1.2;
+  color: gray;
+  margin-top:0;
+  margin-bottom:20px;
+  padding-right: 90px;
+
+  @media (max-width: 800px) {
+    font-size: 15px;
+    padding-right: 70px;
   }
 `;
 
@@ -51,5 +67,5 @@ export const VideoCardGroupContainer = styled.section`
   color: white;
   min-height: 197px;
   margin-left: 5%;
-  margin-bottom: 16px;
+  padding-bottom: 5%;
 `;

@@ -2,256 +2,568 @@
   "categorias": [
     {
       "id": 1,
-      "titulo": "Front End",
+      "titulo": "Ballet",
       "cor": "#6BD1FF",
+      "description": "Ballet dance gets originated in Italian Renaissance courts of the 15th century and later it becomes the dance form in France and Russia. For becoming a perfect ballet dancer you need to spend your time for years of training.",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "More ballet videos",
+        "url": "https://www.youtube.com/results?search_query=ballet"
       }
     },
     {
       "id": 2,
-      "titulo": "Back End",
+      "titulo": "Belly Dance",
       "cor": "#00C86F",
+      "description": "Belly dance style gets originated in Egypt. It is quite an expressive type of style, which is a folk dance of the middle east. Belly dance is a quite famous dance style that is popular for the costumes and also after the involvement of new styles.",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "More belly dance videos",
+        "url": "https://www.youtube.com/results?search_query=belly+dance"
       }
     },
     {
       "id": 3,
-      "titulo": "Data Science e Inteligência Artificial",
+      "titulo": "Break Dance or B-boying",
       "cor": "#9cd33b",
+      "description": "B-Boying is an athletic style of street dance of the United States which is also called breaking and Break dancing. It was originated in 1970 by African American youth. It is the most famous dance style which is worldwide due to its popularity especially in Western Countries like America, England, Canada, Russia.",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/cursos-online-mobile"
+        "text": "More break dance videos",
+        "url": "https://www.youtube.com/results?search_query=break+dance"
       }
     },
     {
       "id": 4,
-      "titulo": "Filmes",
-      "cor": "orange"
+      "titulo": "Gangnam Style",
+      "cor": "orange",
+      "description": "Gangnam Style comes in origin in on 12th July 2012 at Gangnam District of South Korea (Seoul) and on 21st December 2012, it becomes the first video on YouTube to reach 1 billion views. This becomes so much popular in Western Countries (Canada, US, and the UK) and the President of these countries also performed on it(David Cameron PM of the UK, Barack Obama PM Of US).",
+      "link_extra": {
+        "text": "More gangnam style dance videos",
+        "url": "https://www.youtube.com/results?search_query=gangnam+style+dance"
+      }
     },
     {
       "id": 5,
-      "titulo": "Games",
+      "titulo": "Hip-hop dance",
       "cor": "red",
+      "description": "Hip-Hop is a kind of dance form that refers to street dance which people perform on Hip-Hop music. It includes lots of dance styles but the primary is famous for breaking. It comes in origin in 1970 and the dance crews of the United States make it popular. This dance form is one of the famous dance forms in the present day.",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "More hip-hop dance videos",
+        "url": "https://www.youtube.com/results?search_query=hip+hop+dance"
+      }
+    },
+    {
+      "id": 6,
+      "titulo": "Kathak",
+      "cor": "#6BD1FF",
+      "description": "Kathak is a famous dance style of which is getting used for ages and it is one from the Indian classical dance form. The word Kathak is taken from the two different words of Sanskrit which is Indian Vedic language. ‘Katha’ & ‘Kathakar’ where Katha means Story and Kathakar mean Story Teller. Kathak originated from the traditional traveling bards of North India who are known as Kathakars. This was originated during the Bhakti Movement, generally used to narrate the stories of Hindu God Lord Krishna and also in the courts of Nort Indian Kingdom. The Kathakars communicate their stories by the expressions of their eyes, faces, and movements of their hand and feet.",
+      "link_extra": {
+        "text": "More kathak dance videos",
+        "url": "https://www.youtube.com/results?search_query=kathak+dance"
+      }
+    },
+    {
+      "id": 7,
+      "titulo": "Line Dance",
+      "cor": "#00C86F",
+      "description": "Line dance is a form of dance that is performed by a group of people in a Line or row that’s why it is known as Line Dance. In this dance form, people who are performing in the group executes the steps at the same time and they must be in the same direction or facing each other. In this dance form, there is no physical contact between the people who are performing in the group.",
+      "link_extra": {
+        "text": "More line dance videos",
+        "url": "https://www.youtube.com/results?search_query=line+dance"
+      }
+    },
+    {
+      "id": 8,
+      "titulo": "Salsa",
+      "cor": "#9cd33b",
+      "description": "The salsa dance form was originated in 1960 in New York City. Salsa is a dance form which is generally performed by two people in pair. The weight of a dancer get shifts by stepping, the body of the dancer does not get affected by the change in weight and also the upper portion of the body remains level.",
+      "link_extra": {
+        "text": "More salsa dance videos",
+        "url": "https://www.youtube.com/results?search_query=salsa+dance"
+      }
+    },
+    {
+      "id": 9,
+      "titulo": "Tap Dance",
+      "cor": "orange",
+      "description": "Tap dance is a type of dance style in which we use the sounds which get produced by striking the tap shoes on the floor, the toe of these shoes is of metal which produces the sound. There is a wide range of tap dance but it mainly includes Broadway Tap and Rhythm (Jazz) Tap.",
+      "link_extra": {
+        "text": "More tap dance videos",
+        "url": "https://www.youtube.com/results?search_query=break+dance"
+      }
+    },
+    {
+      "id": 10,
+      "titulo": "Yangko Dance",
+      "cor": "red",
+      "description": "Yangko Opera or Drama is a form of Chinese sung theater that is founded in China in 1942. In this dance the participants follow the three steps which are three steps forward, three steps backward then pause and repeat.",
+      "link_extra": {
+        "text": "More yangko dance videos",
+        "url": "https://www.youtube.com/results?search_query=yangko+dance"
       }
     }
+
   ],
   "videos": [
     {
       "id": 1,
       "categoriaId": 1,
-      "titulo": "SEO com React",
-      "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+      "titulo": "Welcome to Danceflix",
+      "url": "https://www.youtube.com/watch?v=fB8qvx0HOlI"
     },
     {
       "id": 2,
       "categoriaId": 1,
-      "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+      "titulo": "Swan Lake – Dance of the cygnets (The Royal Ballet)",
+      "url": "https://www.youtube.com/watch?v=0GsajWIF3ws&list=PLFEuShFvJzByJ8L53CfPHjRb85qjj9tct"
     },
     {
       "id": 3,
       "categoriaId": 1,
-      "titulo": "Componentização com VanillaJS #AluraMais",
-      "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+      "titulo": "The Royal Ballet morning class in full - World Ballet Day 2018",
+      "url": "https://www.youtube.com/watch?v=FySuVhmb-OY"
     },
     {
       "id": 4,
       "categoriaId": 1,
-      "titulo": "Pare de chutar e aprenda a display: inline #01",
-      "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+      "titulo": "Swan Lake – Entrée and Adage from the Black Swan pas de deux (The Royal Ballet)",
+      "url": "https://www.youtube.com/watch?v=p21n1xorjEs&list=PLFEuShFvJzBwuoV5Xjx9Fpuvs45BSBgGI"
     },
     {
       "id": 5,
       "categoriaId": 1,
-      "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+      "titulo": "Romeo and Juliet – Juliet and Paris Act I pas de deux 4K (MacMillan; Takada, Mock; The Royal Ballet)",
+      "url": "https://www.youtube.com/watch?v=Rt-2MlnDWZY"
     },
     {
       "id": 6,
       "categoriaId": 1,
-      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+      "titulo": "Don Quixote - Act I finale (Marianela Nuñez and Carlos Acosta, The Royal Ballet)",
+      "url": "https://www.youtube.com/watch?v=5fKxzQ8ARTQ"
     },
     {
       "id": 7,
       "categoriaId": 1,
-      "titulo": "Novidades do Angular v9",
-      "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+      "titulo": "The Nutcracker",
+      "url": "https://www.youtube.com/watch?v=qy6dlGpC3Ns"
     },
     {
       "id": 8,
-      "categoriaId": 2,
-      "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-      "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+      "categoriaId": 1,
+      "titulo": "Alice's Adventures in Wonderland",
+      "url": "https://www.youtube.com/watch?v=Kq8zqhqjUIo"
     },
     {
       "id": 9,
       "categoriaId": 2,
-      "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+      "titulo": "Jasirah Bellydance",
+      "url": "https://www.youtube.com/watch?v=eFhcogOmFds"
     },
     {
       "id": 10,
       "categoriaId": 2,
-      "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-      "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+      "titulo": "MELODY OF HEARTBEAT by Fleur Estelle Dance Company",
+      "url": "https://www.youtube.com/watch?v=dMRWgDEi_jA"
     },
     {
       "id": 11,
       "categoriaId": 2,
-      "titulo": "API: Dicionário do Programador",
-      "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+      "titulo": "Jasirah - Peacock Bellydance Fantasy with wings - Venus 2017",
+      "url": "https://www.youtube.com/watch?v=wP52IJOFXOY"
     },
     {
       "id": 12,
       "categoriaId": 2,
-      "titulo": "Usando Git Direito",
-      "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+      "titulo": "KEEF TROUHI (Issa Ghandour) Fanveils Fleur Estelle Dance Company",
+      "url": "https://www.youtube.com/watch?v=F5_117aWCDY"
     },
     {
       "id": 13,
-      "categoriaId": 3,
-      "titulo": "Teste de Turing",
-      "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+      "categoriaId": 2,
+      "titulo": "Vintage Belly Dance by Alia - Queen of the Nile - Ruby Revue",
+      "url": "https://www.youtube.com/watch?v=Tm1HSNYoiDY"
     },
     {
       "id": 14,
-      "categoriaId": 3,
-      "titulo": "O que é Data Science?",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+      "categoriaId": 2,
+      "titulo": "",
+      "url": "https://www.youtube.com/watch?v=8XGIRLwcw4o"
     },
     {
       "id": 15,
-      "categoriaId": 3,
-      "titulo": "Melhor forma de aprender Python",
-      "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+      "categoriaId": 2,
+      "titulo": "Drum Solo Belly Dance - Fleur Estelle Dance Company",
+      "url": "https://www.youtube.com/watch?v=UKGc5o-QHAA"
     },
     {
       "id": 16,
       "categoriaId": 3,
-      "titulo": "Como ingressar no mercado de Data Science?",
-      "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+      "titulo": "Breakdance Battle - Chelles Battle Pro 2014 Final",
+      "url": "https://www.youtube.com/watch?v=9tG-xwv0kw0"
     },
     {
       "id": 17,
-      "categoriaId": 4,
-      "titulo": "Interestellar",
-      "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
+      "categoriaId": 3,
+      "titulo": "Massive Monkees vs Jinjo Crew | R16 BBOY Battle 2012 | YAK FILMS",
+      "url": "https://www.youtube.com/watch?v=-kT0HJhm5ck"
     },
     {
       "id": 18,
-      "categoriaId": 4,
-      "titulo": "Gattaca",
-      "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
+      "categoriaId": 3,
+      "titulo": "Tight Eyez vs BBoy Junior | Exhibition Battle | EBS 2017",
+      "url": "https://www.youtube.com/watch?v=x5sfi9I93GE"
     },
     {
       "id": 19,
-      "categoriaId": 4,
-      "titulo": "A Chegada",
-      "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
+      "categoriaId": 3,
+      "titulo": "Craziest Dance Routines!!!! @ R16 Korea 2013",
+      "url": "https://www.youtube.com/watch?v=44kKLeDKIIc"
     },
     {
       "id": 20,
-      "categoriaId": 4,
-      "titulo": "Feitiço do Tempo",
-      "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
+      "categoriaId": 3,
+      "titulo": "TOP 10 Kill the Beat in Breakdance",
+      "url": "https://www.youtube.com/watch?v=0hjK0DwOEUw"
     },
     {
       "id": 21,
-      "categoriaId": 5,
-      "titulo": "Final Fantasy 7",
-      "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+      "categoriaId": 3,
+      "titulo": "Best Breakdance Ever Compilation 2016 ( BBoy Battle )",
+      "url": "https://www.youtube.com/watch?v=xNxQQUAIGeI"
     },
     {
       "id": 22,
-      "categoriaId": 5,
-      "titulo": "Assassins Creed Valhalla",
-      "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+      "categoriaId": 3,
+      "titulo": "DIFFER B-BOYING Class",
+      "url": "https://www.youtube.com/watch?v=0esdJYh96lE"
     },
     {
       "id": 23,
-      "categoriaId": 5,
-      "titulo": "God of War 4",
-      "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+      "categoriaId": 4,
+      "titulo": "PSY - GANGNAM STYLE(강남스타일) M/V",
+      "url": "https://www.youtube.com/watch?v=9bZkp7q19f0"
     },
     {
       "id": 24,
+      "categoriaId": 4,
+      "titulo": "PSY - Gangnam Style mirrored Dance Practice",
+      "url": "https://www.youtube.com/watch?v=bSuWLVMvbJM"
+    },
+    {
+      "id": 25,
+      "categoriaId": 4,
+      "titulo": "PSY싸이 - GANGNAM STYLE (강남스타일) Waveya 웨이브야 Korean dance team",
+      "url": "https://www.youtube.com/watch?v=kpZhZAr1cQU"
+    },
+    {
+      "id": 26,
+      "categoriaId": 4,
+      "titulo": "PSY - GENTLEMAN M/V",
+      "url": "https://www.youtube.com/watch?v=ASO_zypdnsQ"
+    },
+    {
+      "id": 27,
+      "categoriaId": 4,
+      "titulo": "PSY - DADDY(feat. CL of 2NE1) M/V",
+      "url": "https://www.youtube.com/watch?v=FrG4TEcSuRg"
+    },
+    {
+      "id": 28,
+      "categoriaId": 4,
+      "titulo": "PSY - DADDY (Dance Practice)",
+      "url": "https://www.youtube.com/watch?v=pGBbvAGnTxA"
+    },
+    {
+      "id": 29,
+      "categoriaId": 4,
+      "titulo": "Daddy - Psy ft.CL / May J Lee Choreography",
+      "url": "https://www.youtube.com/watch?v=SoXGx7FakyU"
+    },
+    {
+      "id": 30,
       "categoriaId": 5,
-      "titulo": "Resident Evil 8",
-      "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+      "titulo": "Les Twins | FRONTROW | World of Dance 2014 #WODHI",
+      "url": "https://www.youtube.com/watch?v=3GNG12g2bKw"
     },
     {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
-      "categoriaId": 1,
-      "id": 25
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "Kendrick Lamar - HUMBLE. Choreography by Phil Wright - #TMillyProductions",
+      "url": "https://www.youtube.com/watch?v=hkJX4fC0w68"
     },
     {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
-      "categoriaId": 1,
-      "id": 26
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Beyoncé Remix - Crazy In Love, Run The World, Diva, Everybody Mad (Dance Video)",
+      "url": "https://www.youtube.com/watch?v=HvZgBCr5npY"
     },
     {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
-      "categoriaId": 1,
-      "id": 27
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "OLD TOWN ROAD - Lil Nas X ft Billy Ray Cyrus Dance | Matt Steffanina & Josh Killacky",
+      "url": "https://www.youtube.com/watch?v=-aeD79TbtbA"
     },
     {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
-      "categoriaId": 1,
-      "id": 28
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Collapse - Eminem / Baiba Klints ft. EZtwins Hip Hop Dance Choreography / URBAN DANCE CAMP",
+      "url": "https://www.youtube.com/watch?v=WORirbXAI8A"
     },
     {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
-      "categoriaId": 1,
-      "id": 29
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "Daddy Yankee & Snow - Con Calma | Official video Rehearsal | Greg Chapkis Choreography",
+      "url": "https://www.youtube.com/watch?v=Wb2boZxfnrs"
     },
     {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
-      "categoriaId": 1,
-      "id": 30
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "Les Twins - World Of Dance - All Performances",
+      "url": "https://www.youtube.com/watch?v=ldXFx9UHD6A"
     },
     {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
-      "categoriaId": 1,
-      "id": 31
+      "id": 31,
+      "categoriaId": 5,
+      "titulo": "CARDI B – I Like it | Street Dance | Choreography Sabrina Lonis",
+      "url": "https://www.youtube.com/watch?v=-FvEGD30DKY"
     },
     {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
-      "categoriaId": 1,
-      "id": 32
+      "id": 30,
+      "categoriaId": 5,
+      "titulo": "THE BOX - Roddy Ricch Dance Choreography | Matt Steffanina & Josh Killacky",
+      "url": "https://www.youtube.com/watch?v=_lgcmYSePGA"
     },
     {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
-      "categoriaId": 1,
-      "id": 33
+      "id": 32,
+      "categoriaId": 6,
+      "titulo": "Nayantara Parpia - Kathak Dancer",
+      "url": "https://www.youtube.com/watch?v=OiFofi1ZeX4"
     },
     {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
-      "categoriaId": 1,
+      "id": 33,
+      "categoriaId": 6,
+      "titulo": "Kathak jugalbandhi duo by Jigna Dixit & Kinga Malec",
+      "url": "https://www.youtube.com/watch?v=lOhOlF8NpT4"
+    },
+    {
+      "titulo": "Aayat Dance | Bajirao Mastani | Indian Classical (Kathak) Contemporary Fusion Choreography",
+      "url": "https://www.youtube.com/watch?v=R5mhNH-syXU",
+      "categoriaId": 6,
       "id": 34
     },
     {
-      "titulo": "video padrao",
-      "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU",
-      "categoriaId": 4,
+      "titulo": "Samjhawan | Bolna | Humma - Kathak Bollywood dance | Svetlana Tulasi | Choreo: Kumar Sharma",
+      "url": "https://www.youtube.com/watch?v=kRLNadwcOzo",
+      "categoriaId": 6,
       "id": 35
+    },
+    {
+      "titulo": "Cours de danse kathak à Paris / kathak dance by mehfil",
+      "url": "https://www.youtube.com/watch?v=4wXJWaqFbQc",
+      "categoriaId": 6,
+      "id": 36
+    },
+    {
+      "titulo": "Kathak Dance | Vidya Patel | TEDxBrum",
+      "url": "https://www.youtube.com/watch?v=Fz_Tpp0q73A",
+      "categoriaId": 6,
+      "id": 37
+    },
+    {
+      "titulo": "Footloose (2011) - Line Dancing Scene (6/10) | Movieclips",
+      "url": "https://www.youtube.com/watch?v=5lgCxWubUnU",
+      "categoriaId": 7,
+      "id": 38
+    },
+    {
+      "titulo": "Beautiful Madness by Min LineDance / Intermediate Level",
+      "url": "https://www.youtube.com/watch?v=LsdOvMhPQGE&list=PLSiFTNx8Myu0ckAr3sqZE5YHleYQiRfLY",
+      "categoriaId": 7,
+      "id": 39
+    },
+    {
+      "titulo": "Fake ID - Line Dance Competition 2013",
+      "url": "https://www.youtube.com/watch?v=zdi8yqDWmCk",
+      "categoriaId": 7,
+      "id": 39
+    },
+    {
+      "titulo": "Chilly Cha Cha- Line Dance (Beginner)  LaVon W. Duke",
+      "url": "https://www.youtube.com/watch?v=Er-rdfd4KC0",
+      "categoriaId": 7,
+      "id": 39
+    },
+    {
+      "titulo": "ONE HUNDRED line dance - Wild Country - Voghera 2017",
+      "url": "https://www.youtube.com/watch?v=xVYuhGIUuto",
+      "categoriaId": 7,
+      "id": 40
+    },
+    {
+      "titulo": "Señorita La-La-La by Min LineDance",
+      "url": "https://www.youtube.com/watch?v=GsEwIwDcj9g",
+      "categoriaId": 7,
+      "id": 41
+    },
+    {
+      "titulo": "Sugar Sugar Line Dance",
+      "url": "https://www.youtube.com/watch?v=tS3U2MoQU54",
+      "categoriaId": 7,
+      "id": 41
+    },
+    {
+      "titulo": "Mambo Italiano- Line Dance(Beginner)Susan Prats",
+      "url": "https://www.youtube.com/watch?v=HUAPXZv7jEs&t=72s",
+      "categoriaId": 7,
+      "id": 41
+    },
+    {
+      "titulo": "2015 Line of the Year Finalist: This Is It - Premiere Dance",
+      "url": "https://www.youtube.com/watch?v=uq8ElcBjtuE",
+      "categoriaId": 7,
+      "id": 42
+    },
+    {
+      "titulo": "The Final Reel | 2017 WDSF World Open Latin | DanceSportTotal",
+      "url": "https://www.youtube.com/watch?v=CIwLz8PGiyk",
+      "categoriaId": 8,
+      "id": 32
+    },
+    {
+      "titulo": "[HD] Antonio Banderas - Take the Lead - Tango Scene",
+      "url": "https://www.youtube.com/watch?v=6lAKlYTQVKY",
+      "categoriaId": 8,
+      "id": 33
+    },
+    {
+      "titulo": "Gloria Estefan - Conga | Salsa Dance Choreography",
+      "url": "https://www.youtube.com/watch?v=vwGp16NXgQU",
+      "categoriaId": 8,
+      "id": 34
+    },
+    {
+      "titulo": "Karen y Ricardo WOD 2018 All Performances - Incredible Salsa Cabaret Couple - World Champion Dancers",
+      "url": "https://www.youtube.com/watch?v=ntFlUov-A3c",
+      "categoriaId": 8,
+      "id": 35
+    },
+    {
+      "titulo": "Ashley & Ola dance the Salsa to 'Conga' | Strictly Come Dancing - BBC",
+      "url": "https://www.youtube.com/watch?v=XGIWHAwuT5Y",
+      "categoriaId": 8,
+      "id": 36
+    },
+    {
+      "titulo": "Juan Carlos and Evelyn - 2019 WSS Pro Salsa Cabaret - 2nd Place",
+      "url": "https://www.youtube.com/watch?v=Qv52AU25mmY",
+      "categoriaId": 8,
+      "id": 34
+    },
+    {
+      "titulo": "Jefferson & Adrianita Dance to 'El Rey Del Timbal' by Tito Puente - World of Dance The Duels 2020",
+      "url": "https://www.youtube.com/watch?v=Fj52H_gJDzw",
+      "categoriaId": 8,
+      "id": 35
+    },
+    {
+      "titulo": "Simone & Serena | WSS 2020 Professional Salsa On1 Championse",
+      "url": "https://www.youtube.com/watch?v=Skl9QIkYzuU",
+      "categoriaId": 8,
+      "id": 36
+    },
+    {
+      "titulo": "PAPAOUTAI (Stromae) - TAP DANCE",
+      "url": "https://www.youtube.com/watch?v=BVIMUXV640g",
+      "categoriaId": 9,
+      "id": 34
+    },
+    {
+      "titulo": "'Another Day of Sun' - La La Land (Tap Dance Cover)",
+      "url": "https://www.youtube.com/watch?v=NAEHObPrCtk",
+      "categoriaId": 9,
+      "id": 35
+    },
+    {
+      "titulo": "TAP THIS! - 'Honey I'm Good' Cloggers - Clogging Champions",
+      "url": "https://www.youtube.com/watch?v=NMA5kgajhEA",
+      "categoriaId": 9,
+      "id": 35
+    },
+    {
+      "titulo": "COME TOGETHER",
+      "url": "https://www.youtube.com/watch?v=SEbD8j_c7Uo",
+      "categoriaId": 9,
+      "id": 36
+    },
+    {
+      "titulo": "RB DANCE COMPANY - Répétition La France a un Incroyable Talent",
+      "url": "https://www.youtube.com/watch?v=-CQPCD9OqJ0",
+      "categoriaId": 9,
+      "id": 36
+    },
+    {
+      "titulo": "'SOLE' : Tap Dance Group Choreography",
+      "url": "https://www.youtube.com/watch?v=HCaUie28JU4",
+      "categoriaId": 9,
+      "id": 34
+    },
+    {
+      "titulo": "'Cups' Tap Dance - Anna Kendrick (Pitch Perfect)",
+      "url": "https://www.youtube.com/watch?v=Q4FYNF02yEM",
+      "categoriaId": 9,
+      "id": 36
+    },
+    {
+      "titulo": "TERRIFIC TAP Dancing Auditions From Around The World! | Top Talent",
+      "url": "https://www.youtube.com/watch?v=1heuBDax4LI",
+      "categoriaId": 9,
+      "id": 34
+    },
+    {
+      "titulo": "Happy Tap Dance #TAPPY - Pharrell Williams",
+      "url": "https://www.youtube.com/watch?v=LAU8eBek_NU",
+      "categoriaId": 9,
+      "id": 35
+    },
+    {
+      "titulo": "《La Hua Xin Yun Fitness yangko dance 》 石家庄市社会体育指导总站-《拉花新韵健身秧歌",
+      "url": "https://www.youtube.com/watch?v=Rojq-D84cJs",
+      "categoriaId": 10,
+      "id": 34
+    },
+    {
+      "titulo": "Fan Dance Yangko",
+      "url": "https://www.youtube.com/watch?v=fZ12t-4J_pg",
+      "categoriaId": 10,
+      "id": 35
+    },
+    {
+      "titulo": "A Live Show of Yangko Dance",
+      "url": "https://www.youtube.com/watch?v=7eHRWQ9mibI",
+      "categoriaId": 10,
+      "id": 36
+    },
+    {
+      "titulo": "Shanghai International Folk Dance Festival 2014 - Lujiazui Shanghai Style Yangko Dance Team China",
+      "url": "https://www.youtube.com/watch?v=BWrt6BjiZF0",
+      "categoriaId": 10,
+      "id": 35
+    },
+    {
+      "titulo": "China Northeast Yangko dance",
+      "url": "https://www.youtube.com/watch?v=uQEFT-loEOs",
+      "categoriaId": 10,
+      "id": 36
+    },
+    {
+      "titulo": "YangKo- Chinese Folk Dance",
+      "url": "https://www.youtube.com/watch?v=tkmqdq5-YXc",
+      "categoriaId": 10,
+      "id": 35
+    },
+    {
+      "titulo": "Shanghai Yangko",
+      "url": "https://www.youtube.com/watch?v=rdMXgfvfj6I",
+      "categoriaId": 10,
+      "id": 36
     }
   ]
 }

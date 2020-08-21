@@ -21,7 +21,19 @@ function Home() {
   return (
     <PageDefault paddingAll={0}>
 
-      {dadosIniciais.length === 0 && (<div>Loanding...</div>)}
+      {dadosIniciais.length === 0 && (
+      <div className="loading">
+        {/* Loading... */}
+        <div className="obj" />
+        <div className="obj" />
+        <div className="obj" />
+        <div className="obj" />
+        <div className="obj" />
+        <div className="obj" />
+        <div className="obj" />
+        <div className="obj" />
+      </div>
+      )}
 
       {dadosIniciais.map((categoria, indice) => {
         if (indice === 0) {

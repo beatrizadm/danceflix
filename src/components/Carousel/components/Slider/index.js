@@ -2,10 +2,38 @@
 import React from 'react';
 import SlickSlider from 'react-slick';
 import styled from 'styled-components';
+import PropType from 'prop-types';
+
+export default function Slider({ children, categoryColor }) {
+  const BoardColor = categoryColor;
+
+  return (
+    <Container categoryColor={BoardColor}>
+      <SlickSlider {...{
+        dots: false,
+        infinite: true,
+        centerMode: false,
+        variableWidth: true,
+        adaptiveHeight: true,
+        autoplay: true,
+        autoplaySpeed: 6000,
+      }}
+      >
+        {children}
+      </SlickSlider>
+    </Container>
+  );
+}
+
+Slider.propTypes = {
+  children: PropType.node.isRequired,
+  categoryColor: PropType.string.isRequired,
+};
 
 const Container = styled.ul`
   padding: 0;
   margin: 0;
+  padding-right:100px;
   .slick-prev,
   .slick-next {
     z-index: 50;
@@ -17,6 +45,7 @@ const Container = styled.ul`
     transform: initial;
     &:before {
       font-size: 30px;
+      color: ${({ categoryColor }) => categoryColor};
     }
   }
   
@@ -32,27 +61,8 @@ export const SliderItem = styled.li`
   margin-right: 16px;
   img {
     margin: 16px;
-    width: 298px;
-    height: 197px;
+    width: 350px;
+    height: 225px;
     object-fit: cover;
   }
 `;
-
-
-const Slider = ({ children }) => (
-  <Container>
-    <SlickSlider {...{
-      dots: false,
-      infinite: false,
-      speed: 300,
-      centerMode: false,
-      variableWidth: true,
-      adaptiveHeight: true,
-    }}
-    >
-      {children}
-    </SlickSlider>
-  </Container>
-);
-
-export default Slider; 

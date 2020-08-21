@@ -1,18 +1,43 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
-import useForm from '../../../hoocks/useForm';
+import useForm from '../../../hooks/useForm';
+
+import categoriasRepository from '../../../repositories/categorias';
+import { TableC } from '../styles';
 
 function CadastroCategoria() {
+  const history = useHistory();
+
+  const table = {
+    width: '100%',
+    marginTop: '20px',
+    marginLeft: 'auto',
+    marginRight: 'auto',
+    border: '1px solid white',
+    borderRadius: '4px',
+    marginBottom: '50px',
+  };
+
+  const tableth = {
+    paddingTop: '12px',
+    paddingBottom: '12px',
+    textAlign: 'center',
+    backgroundColor: '#2A7AE4',
+    color: 'black',
+
+  };
+
   const valoresIniciais = {
     nome: '',
-    descricao: '',
+    text: '',
     cor: '',
   };
 
-  const { handleChange, values, clearForm } = useForm(valoresIniciais);
+  const { handleChange, values } = useForm(valoresIniciais);
+
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
@@ -28,42 +53,79 @@ function CadastroCategoria() {
       });
   });
 
+  useEffect(() => {
+    categoriasRepository
+      .getAll()
+      .then((categoriasFromServer) => {
+        setCategorias(categoriasFromServer);
+      });
+  }, []);
+
+  const listC = (
+    <table style={table}>
+      <tbody>
+        <tr>
+          <th style={tableth}>Categories</th>
+        </tr>
+      </tbody>
+      {categorias.map((categoria) => (
+        <tbody key={`${categoria.titulo}`}>
+          <TableC fieldColor={categoria.cor}>
+            <td style={{ padding: '5px', textAlign: 'center' }}>
+              {categoria.titulo}
+            </td>
+          </TableC>
+        </tbody>
+      ))}
+    </table>
+  );
+
   return (
     <PageDefault>
       <h1>
-        Cadastro de Categoria:
-        {values.nome}
+        Category Registration:
+        {values.titulo}
       </h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
         infosDoEvento.preventDefault();
+
+        categoriasRepository
+          .create({
+            titulo: values.titulo,
+            cor: values.cor,
+            text: values.text,
+          })
+          .then(() => {
+            console.log('Cadastrou com sucesso!');
+            history.push('/');
+          });
+
         setCategorias([
           ...categorias,
           values,
         ]);
-
-        clearForm();
       }}
       >
 
         <FormField
           label="Category name: "
           type="text"
-          name="nome"
-          value={values.nome}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
         <FormField
           label="Description: "
           type="textarea"
-          name="descricao"
-          value={values.descricao}
+          name="text"
+          value={values.text}
           onChange={handleChange}
         />
 
         <FormField
-          label="Color: "
+          label="Color"
           type="color"
           name="cor"
           value={values.cor}
@@ -71,27 +133,26 @@ function CadastroCategoria() {
         />
 
         <Button>
-          Cadastrar
+          Register
         </Button>
       </form>
 
       {categorias.length === 0 && (
-        <div>
-          Loading...
+        <div className="loading">
+          {/* Loading... */}
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
+          <div className="obj" />
         </div>
       )}
 
-      <ul>
-        {categorias.map((categoria) => (
-          <li key={`${categoria.titulo}`}>
-            {categoria.titulo}
-          </li>
-        ))}
-      </ul>
+      {listC}
 
-      <Link to="/">
-        Ir para home
-      </Link>
     </PageDefault>
   );
 }

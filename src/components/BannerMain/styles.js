@@ -46,6 +46,7 @@ ContentAreaContainer.Category = styled.h1`
 `;
 
 ContentAreaContainer.Description = styled.p`
+  font-size: 25px;
   @media (max-width: 800px) {
     display: none;
   }
@@ -54,7 +55,7 @@ ContentAreaContainer.Description = styled.p`
 ContentAreaContainer.Title = styled.h2`
   font-style: normal;
   font-weight: 300;
-  font-size: 40px;
+  font-size: 60px;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 32px;
@@ -85,13 +86,13 @@ export const BannerMainContainer = styled.section`
     left: 0;
     right: 0;
     margin: auto;
-    height: 20%;
+    height: 30%;
   }
 
   &:before {
     top: 0;
     height: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,1);
   }
 
   &:after {

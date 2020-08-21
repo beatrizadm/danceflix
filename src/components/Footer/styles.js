@@ -6,10 +6,15 @@ export const FooterBase = styled.footer`
   border-top: 2px solid var(--primary);
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 15px;
+  padding-top: 7px;
   padding-bottom: 5px;
   color: var(--white);
   text-align: center;
+  p {
+    padding-top: 0;
+    margin-top:2px;
+  }
+  
   a {
     text-decoration:none;
   }
@@ -18,5 +23,11 @@ export const FooterBase = styled.footer`
   }
   @media (max-width: 800px) {
     margin-bottom: 50px;
+    img {
+      height: 30px;
+    }
+    p {
+      font-size: 13px;
+    }
   }
 `;
