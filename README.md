@@ -1,11 +1,11 @@
-# Danceflix
-
-[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/beatrizadm/Danceflix/blob/master/LICENSE)
 
 
 <p align="center">
     <img src="src/assets/img/Logo.png" height="100"/>
 <p/>
+
+[![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/beatrizadm/Danceflix/blob/master/LICENSE)
+
 
 React application similar to netflix, done during Alura's react immersion
 
