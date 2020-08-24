@@ -33,8 +33,10 @@ function CadastroVideo() {
       <form onSubmit={(event) => {
         event.preventDefault();
 
-        const categoriaEscolhida = categorias.find((categoria) => categoria.titulo === values.categoria);
-
+        const categoriaEscolhida = categorias.find((categoria) => {
+          return categoria.titulo === values.categoria;
+        });
+    
         if (!categoriaEscolhida) {
           alert('Choose an existing category or register a different one!');
         } else {
@@ -44,7 +46,7 @@ function CadastroVideo() {
             categoriaId: categoriaEscolhida.id,
           })
             .then(() => {
-              console.log('Cadastrou com sucesso!');
+              console.log('Successfully registered!');
               history.push('/');
             })
             .catch((error) => {
