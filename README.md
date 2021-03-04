@@ -7,11 +7,13 @@
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/beatrizadm/Danceflix/blob/master/LICENSE)
 
 
-React application similar to netflix, done during Alura's react immersion
+React application similar to netflix.
 
-'Dance it does not only make us move our body but also moves our souls' 
+"Dance it does not only make us move our body but also moves our souls"
+
 What is dance? Give all of you, surround your soul, feel the beat and show it. 
-Here you can see the top 10 most famous types of dance.
+
+Here you can see videos of the top 10 most famous types of dance.
 
 <h3>Tecnologies 🚀</h3>
 <ul>
